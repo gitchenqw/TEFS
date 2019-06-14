@@ -1,0 +1,57 @@
+[INFO ][2015-04-20 05:10:01.149] <10631> <ps:0:0 mem:0> gfsver start.
+[INFO ][2015-04-20 05:10:01.150] <10631> <ps:40960:1120 mem:40960> the configuration file parsing is successful.
+[INFO ][2015-04-20 05:10:01.150] <10631> <ps:40960:1120 mem:40960> global module init successed.
+[INFO ][2015-04-20 05:10:01.150] <10631> <ps:40960:87136 mem:126784> <0x15ec798>event loop create successed.
+[INFO ][2015-04-20 05:10:01.206] <10631> <ps:614400:8936176 mem:49996224> <0x15ec858>net loop create successed.
+[INFO ][2015-04-20 05:10:01.207] <10631> <ps:614400:8936424 mem:49996224> bind and listen <ip:0.0.0.0 port:8082>.
+[INFO ][2015-04-20 05:10:01.227] <10631> <ps:614400:8936424 mem:49996224> worker process 10631 is run.
+[DEBUG][2015-04-20 05:15:01.259] <10631> <ps:614400:8936424 mem:49996224> get the connect node success. remain[9] 
+[DEBUG][2015-04-20 05:15:01.263] <10631> <ps:614400:8936424 mem:49996224> Found no need to copy file blocks.
+[DEBUG][2015-04-20 05:15:01.264] <10631> <ps:614400:8936424 mem:49996224> get the connect node success. remain[9] 
+[DEBUG][2015-04-20 05:15:01.265] <10631> <ps:614400:8936424 mem:49996224> Found no need to delete file blocks.
+[DEBUG][2015-04-20 05:20:01.317] <10631> <ps:614400:8936424 mem:49996224> get the connect node success. remain[9] 
+[DEBUG][2015-04-20 05:20:01.319] <10631> <ps:614400:8936424 mem:49996224> Found no need to copy file blocks.
+[DEBUG][2015-04-20 05:20:01.319] <10631> <ps:614400:8936424 mem:49996224> get the connect node success. remain[9] 
+[DEBUG][2015-04-20 05:20:01.320] <10631> <ps:614400:8936424 mem:49996224> Found no need to delete file blocks.
+[INFO ][2015-04-20 05:24:31.814] <10631> <ps:614400:8936424 mem:49996224> <10.0.3.177:59281 fd:16> new connection has been established.
+[DEBUG][2015-04-20 05:24:31.814] <10631> <ps:614400:8936424 mem:49996224> recv len 36 from <10.0.3.177:59281>
+[DEBUG][2015-04-20 05:24:31.814] <10631> <ps:614400:8936424 mem:49996224> create busi: pool<size:40960, used:1152 msize:288>
+[DEBUG][2015-04-20 05:24:31.815] <10631> <ps:614400:8936424 mem:49996224> <len 36,id 1429478671,type 10> get file size parse successed.
+[DEBUG][2015-04-20 05:24:31.815] <10631> <ps:614400:8936424 mem:49996224> get the connect node success. remain[9] 
+[DEBUG][2015-04-20 05:24:31.818] <10631> <ps:614400:8936424 mem:49996224> <mysql_getfsize> file(hash 704bda6a334d1c939bb6e487e51d8153) call get_fsize procedure successed.
+[INFO ][2015-04-20 05:24:31.818] <10631> <ps:614400:8936424 mem:49996224> <len 36,id 1429478671,type 10> get file(704bda6a334d1c939bb6e487e51d8153) size successed.
+[DEBUG][2015-04-20 05:24:31.818] <10631> <ps:614400:8936424 mem:653976048> <len 36,id 1429478671,type 10,rtn 0> tobuf successed.
+[DEBUG][2015-04-20 05:24:31.818] <10631> <ps:614400:8936424 mem:653976048> send len 36 to <10.0.3.177:59281>
+[INFO ][2015-04-20 05:24:31.821] <10631> <ps:614400:8936424 mem:49996224> <10.0.3.177:59281 fd:16> Connection has been disconnected.
+[INFO ][2015-04-20 05:24:41.599] <10631> <ps:614400:8936424 mem:49996224> <10.0.3.177:59282 fd:16> new connection has been established.
+[DEBUG][2015-04-20 05:24:41.599] <10631> <ps:614400:8936424 mem:49996224> recv len 36 from <10.0.3.177:59282>
+[DEBUG][2015-04-20 05:24:41.599] <10631> <ps:614400:8936424 mem:49996224> create busi: pool<size:40960, used:1136 msize:272>
+[DEBUG][2015-04-20 05:24:41.599] <10631> <ps:614400:8936424 mem:49996224> <len 36,id 1429478672,type 4> delete file request parse successed.
+[DEBUG][2015-04-20 05:24:41.604] <10631> <ps:614400:8936424 mem:49996224> get the connect node success. remain[9] 
+[INFO ][2015-04-20 05:24:41.609] <10631> <ps:614400:8936424 mem:49996224> <mysql delfile> delete file(704bda6a334d1c939bb6e487e51d8153) not exist.
+[INFO ][2015-04-20 05:24:41.609] <10631> <ps:614400:8936424 mem:49996224> <len 36,id 1429478672,type 4> file(704bda6a334d1c939bb6e487e51d8153) not exit!
+[DEBUG][2015-04-20 05:24:41.609] <10631> <ps:614400:8936424 mem:49996224> <len 24,id 1429478672,type 4,rtn 20> tobuf successed.
+[DEBUG][2015-04-20 05:24:41.610] <10631> <ps:614400:8936424 mem:49996224> send len 24 to <10.0.3.177:59282>
+[INFO ][2015-04-20 05:24:41.610] <10631> <ps:614400:8936424 mem:49996224> <10.0.3.177:59282 fd:16> Connection has been disconnected.
+[INFO ][2015-04-20 05:24:46.060] <10631> <ps:614400:8936424 mem:49996224> <10.0.3.177:59283 fd:16> new connection has been established.
+[DEBUG][2015-04-20 05:24:46.060] <10631> <ps:614400:8936424 mem:49996224> recv len 52 from <10.0.3.177:59283>
+[DEBUG][2015-04-20 05:24:46.060] <10631> <ps:614400:8936424 mem:49996224> create busi: pool<size:40960, used:1184 msize:320>
+[DEBUG][2015-04-20 05:24:46.060] <10631> <ps:614400:8936424 mem:49996224> <len 52,id 1429478673,type 2> upload file request successed.
+[INFO ][2015-04-20 05:24:46.060] <10631> <ps:614400:8936424 mem:49996224> <len 52,id 1429478673,type 2> no ds is available to upload file.
+[DEBUG][2015-04-20 05:24:46.060] <10631> <ps:614400:8936424 mem:49996224> <len 36,id 1429478673,type 2,rtn 11> tobuf successed.
+[DEBUG][2015-04-20 05:24:46.060] <10631> <ps:614400:8936424 mem:49996224> send len 36 to <10.0.3.177:59283>
+[INFO ][2015-04-20 05:24:46.080] <10631> <ps:614400:8936424 mem:49996224> <10.0.3.177:59283 fd:16> Connection has been disconnected.
+[INFO ][2015-04-20 05:24:49.078] <10631> <ps:614400:8936424 mem:49996224> <10.0.3.177:59284 fd:16> new connection has been established.
+[DEBUG][2015-04-20 05:24:49.078] <10631> <ps:614400:8936424 mem:49996224> recv len 40 from <10.0.3.177:59284>
+[DEBUG][2015-04-20 05:24:49.078] <10631> <ps:614400:8936424 mem:49996224> create busi: pool<size:40960, used:1168 msize:304>
+[DEBUG][2015-04-20 05:24:49.078] <10631> <ps:614400:8936424 mem:49996224> <len 40,id 1429478674,type 3> download request successed.
+[DEBUG][2015-04-20 05:24:49.086] <10631> <ps:614400:8936424 mem:49996224> get the connect node success. remain[9] 
+[WARN ][2015-04-20 05:24:49.088] <10631> <ps:614400:8936424 mem:49996224> <mysql download> 0 rows affected.
+[ERROR][2015-04-20 05:24:49.088] <10631> <ps:614400:8936424 mem:49996224> <len 40,id 1429478674,type 3> file(hash 704bda6a334d1c939bb6e487e51d8153,bindex 1) not found block.
+[DEBUG][2015-04-20 05:24:49.088] <10631> <ps:614400:8936424 mem:49996224> <len 36,id 1429478674,type 3,rtn 21> tobuf successed.
+[DEBUG][2015-04-20 05:24:49.088] <10631> <ps:614400:8936424 mem:49996224> send len 36 to <10.0.3.177:59284>
+[INFO ][2015-04-20 05:24:49.088] <10631> <ps:614400:8936424 mem:49996224> <10.0.3.177:59284 fd:16> Connection has been disconnected.
+[DEBUG][2015-04-20 05:25:01.424] <10631> <ps:614400:8936424 mem:49996224> get the connect node success. remain[9] 
+[DEBUG][2015-04-20 05:25:01.425] <10631> <ps:614400:8936424 mem:49996224> Found no need to copy file blocks.
+[DEBUG][2015-04-20 05:25:01.438] <10631> <ps:614400:8936424 mem:49996224> get the connect node success. remain[9] 
+[DEBUG][2015-04-20 05:25:01.684] <10631> <ps:614400:8936424 mem:49996224> Found no need to delete file blocks.

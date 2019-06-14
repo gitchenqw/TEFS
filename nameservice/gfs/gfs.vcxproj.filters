@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{de724064-87c3-4d8d-bda8-1759cf82b9b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="busi">
+      <UniqueIdentifier>{786b1417-928a-448b-b9cf-e7053343cbd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net">
+      <UniqueIdentifier>{3f20903f-2e13-4d8b-ac8d-df30753f3252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sql">
+      <UniqueIdentifier>{efd095e9-f2bb-46f7-8a26-3597729876a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="event">
+      <UniqueIdentifier>{e7a272db-2738-4417-baa7-94d578a101e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cfg">
+      <UniqueIdentifier>{ca2ff1ab-5e5d-4d2a-ad21-2c425732c1f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{e3b6fe67-0dcf-4f09-8eca-de05d09948d2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\net\gfs_net.c">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\net\gfs_net_map.c">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\net\gfs_net_tcp.c">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\event\gfs_event.c">
+      <Filter>event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\event\gfs_timer.c">
+      <Filter>event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\busi\gfs_busi.c">
+      <Filter>busi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\gfs_daemon.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\gfs_global.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\gfs_handle.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\gfs_log.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\gfs_mem.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\gfs_queue.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\gfs_rbtree.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\gfs_tools.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\busi\gfs_busi_copy_block.c">
+      <Filter>busi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\busi\gfs_busi_delete_block.c">
+      <Filter>busi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\busi\gfs_busi_delete_file.c">
+      <Filter>busi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\busi\gfs_busi_download.c">
+      <Filter>busi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\busi\gfs_busi_heartbeat.c">
+      <Filter>busi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\busi\gfs_busi_login.c">
+      <Filter>busi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\busi\gfs_busi_upload.c">
+      <Filter>busi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sql\gfs_dbpool.c">
+      <Filter>sql</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sql\gfs_sql.c">
+      <Filter>sql</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gfs.c" />
+    <ClCompile Include="..\test\test.c">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\busi\gfs_busi_notice.c">
+      <Filter>busi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\busi\gfs_busi_getfsize.c">
+      <Filter>busi</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\net\gfs_net.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\net\gfs_net_map.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\net\gfs_net_tcp.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\event\gfs_event.h">
+      <Filter>event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\event\gfs_timer.h">
+      <Filter>event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\busi\gfs_busi.h">
+      <Filter>busi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\gfs_config.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\gfs_daemon.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\gfs_global.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\gfs_handle.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\gfs_log.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\gfs_mem.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\gfs_queue.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\gfs_rbtree.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\gfs_tools.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\busi\gfs_busi_types.h">
+      <Filter>busi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sql\gfs_dbpool.h">
+      <Filter>sql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sql\gfs_sql.h">
+      <Filter>sql</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\cfg\gfs.cfg">
+      <Filter>cfg</Filter>
+    </None>
+    <None Include="..\sql\createdb.sql">
+      <Filter>sql</Filter>
+    </None>
+    <None Include="..\sql\procedure.sql">
+      <Filter>sql</Filter>
+    </None>
+    <None Include="..\sql\trigger.sql">
+      <Filter>sql</Filter>
+    </None>
+  </ItemGroup>
+</Project>

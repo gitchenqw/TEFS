@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2B5C8FA4-ECA2-458A-A13C-F154F5D7192E}</ProjectGuid>
+    <RootNamespace>gfs</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\busi\gfs_busi.c" />
+    <ClCompile Include="..\busi\gfs_busi_copy_block.c" />
+    <ClCompile Include="..\busi\gfs_busi_delete_block.c" />
+    <ClCompile Include="..\busi\gfs_busi_delete_file.c" />
+    <ClCompile Include="..\busi\gfs_busi_download.c" />
+    <ClCompile Include="..\busi\gfs_busi_getfsize.c" />
+    <ClCompile Include="..\busi\gfs_busi_heartbeat.c" />
+    <ClCompile Include="..\busi\gfs_busi_login.c" />
+    <ClCompile Include="..\busi\gfs_busi_notice.c" />
+    <ClCompile Include="..\busi\gfs_busi_upload.c" />
+    <ClCompile Include="..\core\gfs_daemon.c" />
+    <ClCompile Include="..\core\gfs_global.c" />
+    <ClCompile Include="..\core\gfs_handle.c" />
+    <ClCompile Include="..\core\gfs_log.c" />
+    <ClCompile Include="..\core\gfs_mem.c" />
+    <ClCompile Include="..\core\gfs_queue.c" />
+    <ClCompile Include="..\core\gfs_rbtree.c" />
+    <ClCompile Include="..\core\gfs_tools.c" />
+    <ClCompile Include="..\event\gfs_event.c" />
+    <ClCompile Include="..\event\gfs_timer.c" />
+    <ClCompile Include="..\gfs.c" />
+    <ClCompile Include="..\net\gfs_net.c" />
+    <ClCompile Include="..\net\gfs_net_map.c" />
+    <ClCompile Include="..\net\gfs_net_tcp.c" />
+    <ClCompile Include="..\sql\gfs_dbpool.c" />
+    <ClCompile Include="..\sql\gfs_sql.c" />
+    <ClCompile Include="..\test\test.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\busi\gfs_busi.h" />
+    <ClInclude Include="..\busi\gfs_busi_types.h" />
+    <ClInclude Include="..\core\gfs_config.h" />
+    <ClInclude Include="..\core\gfs_daemon.h" />
+    <ClInclude Include="..\core\gfs_global.h" />
+    <ClInclude Include="..\core\gfs_handle.h" />
+    <ClInclude Include="..\core\gfs_log.h" />
+    <ClInclude Include="..\core\gfs_mem.h" />
+    <ClInclude Include="..\core\gfs_queue.h" />
+    <ClInclude Include="..\core\gfs_rbtree.h" />
+    <ClInclude Include="..\core\gfs_tools.h" />
+    <ClInclude Include="..\event\gfs_event.h" />
+    <ClInclude Include="..\event\gfs_timer.h" />
+    <ClInclude Include="..\net\gfs_net.h" />
+    <ClInclude Include="..\net\gfs_net_map.h" />
+    <ClInclude Include="..\net\gfs_net_tcp.h" />
+    <ClInclude Include="..\sql\gfs_dbpool.h" />
+    <ClInclude Include="..\sql\gfs_sql.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\cfg\gfs.cfg" />
+    <None Include="..\sql\createdb.sql" />
+    <None Include="..\sql\procedure.sql" />
+    <None Include="..\sql\trigger.sql" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,68 @@
+﻿生成启动时间为 2015/3/6 16:18:19。
+     1>项目“E:\gfs\storage\trunk\nameservice\gfs\gfs.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\gfs.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\busi\gfs_busi.c ..\busi\gfs_busi_copy_block.c ..\busi\gfs_busi_delete_block.c ..\busi\gfs_busi_delete_file.c ..\busi\gfs_busi_download.c ..\busi\gfs_busi_getfsize.c ..\busi\gfs_busi_heartbeat.c ..\busi\gfs_busi_login.c ..\busi\gfs_busi_notice.c ..\busi\gfs_busi_upload.c ..\core\gfs_daemon.c ..\core\gfs_global.c ..\core\gfs_handle.c ..\core\gfs_log.c ..\core\gfs_mem.c ..\core\gfs_queue.c ..\core\gfs_rbtree.c ..\core\gfs_tools.c ..\event\gfs_event.c ..\event\gfs_timer.c ..\gfs.c ..\net\gfs_net.c ..\net\gfs_net_map.c ..\net\gfs_net_tcp.c ..\sql\gfs_dbpool.c ..\sql\gfs_sql.c ..\test\test.c
+         test.c
+     1>e:\gfs\storage\trunk\nameservice\test\test.c(1): fatal error C1083: 无法打开包括文件:“gfs_config.h”: No such file or directory
+         gfs_sql.c
+     1>e:\gfs\storage\trunk\nameservice\sql\gfs_sql.c(1): fatal error C1083: 无法打开包括文件:“gfs_sql.h”: No such file or directory
+         gfs_dbpool.c
+     1>e:\gfs\storage\trunk\nameservice\sql\gfs_dbpool.c(1): fatal error C1083: 无法打开包括文件:“gfs_config.h”: No such file or directory
+         gfs_net_tcp.c
+     1>e:\gfs\storage\trunk\nameservice\net\gfs_net_tcp.c(1): fatal error C1083: 无法打开包括文件:“gfs_config.h”: No such file or directory
+         gfs_net_map.c
+     1>e:\gfs\storage\trunk\nameservice\net\gfs_net_map.c(1): fatal error C1083: 无法打开包括文件:“gfs_config.h”: No such file or directory
+         gfs_net.c
+     1>e:\gfs\storage\trunk\nameservice\net\gfs_net.c(1): fatal error C1083: 无法打开包括文件:“gfs_config.h”: No such file or directory
+         gfs.c
+     1>e:\gfs\storage\trunk\nameservice\gfs.c(1): fatal error C1083: 无法打开包括文件:“gfs_config.h”: No such file or directory
+         gfs_timer.c
+     1>e:\gfs\storage\trunk\nameservice\event\gfs_timer.c(1): fatal error C1083: 无法打开包括文件:“gfs_config.h”: No such file or directory
+         gfs_event.c
+     1>e:\gfs\storage\trunk\nameservice\event\gfs_event.c(1): fatal error C1083: 无法打开包括文件:“gfs_config.h”: No such file or directory
+         gfs_tools.c
+     1>e:\gfs\storage\trunk\nameservice\core\gfs_tools.c(1): fatal error C1083: 无法打开包括文件:“gfs_config.h”: No such file or directory
+         gfs_rbtree.c
+     1>e:\gfs\storage\trunk\nameservice\core\gfs_rbtree.c(3): fatal error C1083: 无法打开包括文件:“gfs_rbtree.h”: No such file or directory
+         gfs_queue.c
+     1>e:\gfs\storage\trunk\nameservice\core\gfs_queue.c(1): fatal error C1083: 无法打开包括文件:“gfs_queue.h”: No such file or directory
+         gfs_mem.c
+     1>e:\gfs\storage\trunk\nameservice\core\gfs_mem.c(5): fatal error C1083: 无法打开包括文件:“gfs_mem.h”: No such file or directory
+         gfs_log.c
+     1>e:\gfs\storage\trunk\nameservice\core\gfs_log.c(1): fatal error C1083: 无法打开包括文件:“gfs_config.h”: No such file or directory
+         gfs_handle.c
+     1>e:\gfs\storage\trunk\nameservice\core\gfs_handle.c(1): fatal error C1083: 无法打开包括文件:“gfs_config.h”: No such file or directory
+         gfs_global.c
+     1>e:\gfs\storage\trunk\nameservice\core\gfs_global.c(1): fatal error C1083: 无法打开包括文件:“gfs_config.h”: No such file or directory
+         gfs_daemon.c
+     1>e:\gfs\storage\trunk\nameservice\core\gfs_daemon.c(1): fatal error C1083: 无法打开包括文件:“gfs_config.h”: No such file or directory
+         gfs_busi_upload.c
+     1>e:\gfs\storage\trunk\nameservice\busi\gfs_busi_upload.c(1): fatal error C1083: 无法打开包括文件:“gfs_config.h”: No such file or directory
+         gfs_busi_notice.c
+     1>e:\gfs\storage\trunk\nameservice\busi\gfs_busi_notice.c(1): fatal error C1083: 无法打开包括文件:“gfs_config.h”: No such file or directory
+         gfs_busi_login.c
+     1>e:\gfs\storage\trunk\nameservice\busi\gfs_busi_login.c(1): fatal error C1083: 无法打开包括文件:“gfs_config.h”: No such file or directory
+         正在生成代码...
+         正在编译...
+         gfs_busi_heartbeat.c
+     1>e:\gfs\storage\trunk\nameservice\busi\gfs_busi_heartbeat.c(1): fatal error C1083: 无法打开包括文件:“gfs_config.h”: No such file or directory
+         gfs_busi_getfsize.c
+     1>e:\gfs\storage\trunk\nameservice\busi\gfs_busi_getfsize.c(1): fatal error C1083: 无法打开包括文件:“gfs_config.h”: No such file or directory
+         gfs_busi_download.c
+     1>e:\gfs\storage\trunk\nameservice\busi\gfs_busi_download.c(1): fatal error C1083: 无法打开包括文件:“gfs_config.h”: No such file or directory
+         gfs_busi_delete_file.c
+     1>e:\gfs\storage\trunk\nameservice\busi\gfs_busi_delete_file.c(1): fatal error C1083: 无法打开包括文件:“gfs_config.h”: No such file or directory
+         gfs_busi_delete_block.c
+     1>e:\gfs\storage\trunk\nameservice\busi\gfs_busi_delete_block.c(1): fatal error C1083: 无法打开包括文件:“gfs_config.h”: No such file or directory
+         gfs_busi_copy_block.c
+     1>e:\gfs\storage\trunk\nameservice\busi\gfs_busi_copy_block.c(1): fatal error C1083: 无法打开包括文件:“gfs_config.h”: No such file or directory
+         gfs_busi.c
+     1>e:\gfs\storage\trunk\nameservice\busi\gfs_busi.c(1): fatal error C1083: 无法打开包括文件:“gfs_config.h”: No such file or directory
+         正在生成代码...
+     1>已完成生成项目“E:\gfs\storage\trunk\nameservice\gfs\gfs.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:03.08

@@ -1,0 +1,3 @@
+---- \r\n\r\n Matches (2 in 1 files) ----
+Gvfs_cos_http_response.c (cos):			header_end = strstr((char *) headers_in->start, "\r\n\r\n");
+Gvfs_cos_http_response.c (cos):				header_end += strlen("\r\n\r\n");
